@@ -3,8 +3,8 @@ updates:
   - package-ecosystem: "npm"
     directory: "/"
     schedule:
-      interval: "dairy"
+      interval: "daily"
   - package-ecosystem: "cargo"
     directory: "/"
     schedule:
-      interval: "dairy"
+      interval: "daily"
