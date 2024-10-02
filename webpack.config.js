@@ -7,22 +7,24 @@ const dist = path.resolve(__dirname, "dist");
 module.exports = {
   mode: "production",
   entry: {
-    index: "./js/index.js"
+    index: "./js/index.js",
   },
   output: {
     path: dist,
-    filename: "[name].js"
+    filename: "[name].js",
   },
   devServer: {
-    contentBase: dist,
+    static: {
+      directory: path.join(__dirname, "dist"),
+    },
   },
   plugins: [
-    new CopyPlugin([
-      path.resolve(__dirname, "static")
-    ]),
+    new CopyPlugin({
+      patterns: [{ from: "static", to: dist }],
+    }),
 
     new WasmPackPlugin({
       crateDirectory: __dirname,
     }),
-  ]
+  ],
 };
