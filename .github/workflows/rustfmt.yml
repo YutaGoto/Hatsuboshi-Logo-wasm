@@ -14,13 +14,9 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Install stable toolchain
-        uses: actions-rs/toolchain@v1
+        uses: dtolnay/rust-toolchain@v1
         with:
           toolchain: nightly
           components: rustfmt
-          override: true
       - name: run rustfmt
-        uses: actions-rs/cargo@v1
-        with:
-          command: fmt
-          args: --all -- --check
+        run: cargo fmt --all --check
