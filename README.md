@@ -1,34 +1,43 @@
+# Hatsuboshi Logo - Rust WebAssembly
+
+[![clippy](https://github.com/YutaGoto/Hatsuboshi-Logo-wasm/actions/workflows/clippy.yml/badge.svg)](https://github.com/YutaGoto/Hatsuboshi-Logo-wasm/actions/workflows/clippy.yml)
+[![reviewdog](https://github.com/YutaGoto/Hatsuboshi-Logo-wasm/actions/workflows/reviewdog.yml/badge.svg)](https://github.com/YutaGoto/Hatsuboshi-Logo-wasm/actions/workflows/reviewdog.yml)
+[![rustfmt](https://github.com/YutaGoto/Hatsuboshi-Logo-wasm/actions/workflows/rustfmt.yml/badge.svg)](https://github.com/YutaGoto/Hatsuboshi-Logo-wasm/actions/workflows/rustfmt.yml)
+[![security_audit](https://github.com/YutaGoto/Hatsuboshi-Logo-wasm/actions/workflows/audit.yml/badge.svg)](https://github.com/YutaGoto/Hatsuboshi-Logo-wasm/actions/workflows/audit.yml)
+[![Dependabot Updates](https://github.com/YutaGoto/Hatsuboshi-Logo-wasm/actions/workflows/dependabot/dependabot-updates/badge.svg)](https://github.com/YutaGoto/Hatsuboshi-Logo-wasm/actions/workflows/dependabot/dependabot-updates)
+
+
 ## How to install
 
 ```sh
-npm install
+pnpm install
 ```
 
 ## How to run in debug mode
 
 ```sh
 # Builds the project and opens it in a new browser tab. Auto-reloads when the project changes.
-npm start
+pnpm start
 ```
 
 ## How to build in release mode
 
 ```sh
 # Builds the project and places it into the `dist` folder.
-npm run build
+pnpm run build
 ```
 
 ## How to run unit tests
 
 ```sh
 # Runs tests in Firefox
-npm test -- --firefox
+pnpm test -- --firefox
 
 # Runs tests in Chrome
-npm test -- --chrome
+pnpm test -- --chrome
 
 # Runs tests in Safari
-npm test -- --safari
+pnpm test -- --safari
 ```
 
 ## What does each file do?
