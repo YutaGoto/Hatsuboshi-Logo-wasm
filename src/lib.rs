@@ -1,7 +1,7 @@
 #[macro_use]
 mod browser;
-mod engine;
-use engine::Draw;
+mod draw;
+use draw::Draw;
 
 use wasm_bindgen::prelude::*;
 use web_sys::console;
@@ -16,8 +16,7 @@ pub fn main_js() -> Result<(), JsValue> {
     // Your code goes here!
     console::log_1(&JsValue::from_str("Hello world!"));
 
-    Draw::Diamond.draw();
-    Draw::MiddleLine.draw();
+    Draw::draw();
 
     Ok(())
 }
