@@ -19,7 +19,7 @@ impl Draw {
 }
 
 impl DrawLogo {
-    const LINE_WIDTH: f64 = 10.0;
+    const LINE_WIDTH: f64 = 12.0;
 
     pub fn draw_diamond(context: &web_sys::CanvasRenderingContext2d) {
         context.set_line_width(Self::LINE_WIDTH);
