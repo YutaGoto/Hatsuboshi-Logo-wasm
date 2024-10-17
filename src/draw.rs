@@ -15,6 +15,7 @@ impl Draw {
         DrawLogo::curved_sparkle(&context);
         DrawLogo::draw_arc(&context);
         DrawLogo::draw_5lines_between_arc(&context);
+        DrawLogo::write_hatsuboshi_gakuen_only_lines(&context);
     }
 }
 
@@ -167,6 +168,32 @@ impl DrawLogo {
 
         context.move_to(308.0, 262.0);
         context.line_to(308.0 + 100.0, 262.0 + 100.0);
+
+        context.stroke();
+    }
+
+    pub fn write_hatsuboshi_gakuen_only_lines(context: &web_sys::CanvasRenderingContext2d) {
+        context.set_line_width(Self::LINE_WIDTH / 3.0);
+        context.begin_path();
+
+        // H
+        context.move_to(322.0, 20.0);
+        context.line_to(307.0, 35.0);
+        context.move_to(314.5, 27.5);
+        context.line_to(322.5, 35.5);
+        context.move_to(330.0, 28.0);
+        context.line_to(315.0, 43.0);
+
+        // A
+        context.move_to(342.0, 35.0);
+        context.line_to(325.0, 48.0);
+        context.move_to(342.0, 35.0);
+        context.line_to(336.0, 58.0);
+        context.move_to(328.5, 43.8);
+        context.line_to(338.0, 52.8);
+
+        // context.move_to(125.0, 300.0);
+        // context.line_to(205.0, 300.0);
 
         context.stroke();
     }
