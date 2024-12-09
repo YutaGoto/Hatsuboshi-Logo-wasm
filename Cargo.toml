@@ -49,5 +49,5 @@ console_error_panic_hook = "0.1.5"
 [dev-dependencies]
 wasm-bindgen-test = "0.3.45"
 futures = "0.3.31"
-js-sys = "0.3.71"
+js-sys = "0.3.76"
 wasm-bindgen-futures = "0.4.45"
