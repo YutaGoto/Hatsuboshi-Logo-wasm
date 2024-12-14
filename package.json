@@ -12,11 +12,12 @@
   },
   "devDependencies": {
     "@wasm-tool/wasm-pack-plugin": "^1.1.0",
+    "@webassemblyjs/wasm-parser": "^1.14.1",
     "copy-webpack-plugin": "^12.0.2",
     "rimraf": "^6.0.1",
-    "webpack": "^5.95.0",
+    "webpack": "^5.97.1",
     "webpack-cli": "^5.1.4",
-    "webpack-dev-server": "^5.1.0",
-    "wrangler": "^3.80.2"
+    "webpack-dev-server": "^5.2.0",
+    "wrangler": "^3.95.0"
   }
 }

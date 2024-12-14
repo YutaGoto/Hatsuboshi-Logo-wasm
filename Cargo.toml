@@ -21,8 +21,8 @@ lto = true
 [dependencies]
 # The `wasm-bindgen` crate provides the bare minimum functionality needed
 # to interact with JavaScript.
-wasm-bindgen = "0.2.95"
-anyhow = "1.0.75"
+wasm-bindgen = "0.2.99"
+anyhow = "1.0.94"
 
 # The `web-sys` crate allows you to interact with the various browser APIs,
 # like the DOM.
@@ -47,7 +47,7 @@ console_error_panic_hook = "0.1.5"
 
 # These crates are used for running unit tests.
 [dev-dependencies]
-wasm-bindgen-test = "0.3.44"
+wasm-bindgen-test = "0.3.45"
 futures = "0.3.31"
 js-sys = "0.3.71"
-wasm-bindgen-futures = "0.4.44"
+wasm-bindgen-futures = "0.4.45"
