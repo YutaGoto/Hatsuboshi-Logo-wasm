@@ -4,10 +4,15 @@
 <head>
   <meta charset="UTF-8">
   <title>Hatsuboshi Logo wasm</title>
+  <link rel="stylesheet" href="https://use.typekit.net/ctz0jzc.css">
   <style>
     body {
       margin: auto;
       height: 100vh;
+
+      font-family: "komet", sans-serif;
+      font-weight: 700;
+      font-style: normal;
     }
 
     .container {
@@ -31,6 +36,12 @@
   </div>
 
   <script src="index.js"></script>
+
+  <script>
+    const font = new FontFace("KOMET", "https://use.typekit.net/ctz0jzc.css");
+    await font.load();
+    document.fonts.add(font);
+  </script>
 </body>
 
 </html>
