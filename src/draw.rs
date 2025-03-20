@@ -15,6 +15,7 @@ impl Draw {
         DrawLogo::curved_sparkle(&context);
         DrawLogo::draw_arc(&context);
         DrawLogo::draw_5lines_between_arc(&context);
+        DrawLogo::draw_text(&context);
     }
 }
 
@@ -169,5 +170,16 @@ impl DrawLogo {
         context.line_to(308.0 + 100.0, 262.0 + 100.0);
 
         context.stroke();
+    }
+
+    pub fn draw_text(context: &web_sys::CanvasRenderingContext2d) {
+        context.translate(440.0, 20.0).unwrap();
+        context.rotate(std::f64::consts::PI / 4.0).unwrap();
+        context.set_text_align("center");
+        context.set_font("36px KOMET");
+        context
+            .fill_text("HATSUBOSHI GAKUEN", 100.0, 100.0)
+            .unwrap();
+        context.restore();
     }
 }
