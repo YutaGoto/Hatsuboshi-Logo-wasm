@@ -4,12 +4,14 @@
   "version": "0.1.0",
   "scripts": {
     "build": "rimraf dist pkg && webpack --target web",
+    "build:rsdoctor": "rimraf dist pkg && RSDOCTOR=true webpack --target web",
     "start": "rimraf dist pkg && webpack-dev-server",
     "test": "cargo test && wasm-pack test --headless",
     "wrangler:dev": "wrangler pages dev --local",
     "wrangler:deploy": "wrangler pages deploy"
   },
   "devDependencies": {
+    "@rsdoctor/webpack-plugin": "^1.0.1",
     "@wasm-tool/wasm-pack-plugin": "^1.1.0",
     "@webassemblyjs/wasm-parser": "^1.14.1",
     "copy-webpack-plugin": "^13.0.0",

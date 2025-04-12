@@ -1,6 +1,7 @@
 const path = require("path");
 const CopyPlugin = require("copy-webpack-plugin");
 const WasmPackPlugin = require("@wasm-tool/wasm-pack-plugin");
+const { RsdoctorWebpackPlugin } = require('@rsdoctor/webpack-plugin');
 
 const dist = path.resolve(__dirname, "dist");
 
@@ -22,11 +23,12 @@ module.exports = {
     new CopyPlugin({
       patterns: [{ from: "static", to: dist }],
     }),
-
     new WasmPackPlugin({
       crateDirectory: __dirname,
     }),
-  ],
+    process.env.RSDOCTOR &&
+      new RsdoctorWebpackPlugin({}),
+  ].filter(Boolean),
   experiments: {
     asyncWebAssembly: true,
   },
