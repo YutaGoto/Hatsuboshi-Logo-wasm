@@ -10,7 +10,7 @@ importers:
     devDependencies:
       '@rsdoctor/webpack-plugin':
         specifier: ^1.0.1
-        version: 1.0.1(webpack@5.99.5)
+        version: 1.0.1(webpack@5.99.6)
       '@wasm-tool/wasm-pack-plugin':
         specifier: ^1.1.0
         version: 1.7.0
@@ -19,19 +19,19 @@ importers:
         version: 1.14.1
       copy-webpack-plugin:
         specifier: ^13.0.0
-        version: 13.0.0(webpack@5.99.5)
+        version: 13.0.0(webpack@5.99.6)
       rimraf:
         specifier: ^6.0.1
         version: 6.0.1
       webpack:
-        specifier: ^5.99.5
-        version: 5.99.5(webpack-cli@6.0.1)
+        specifier: ^5.99.6
+        version: 5.99.6(webpack-cli@6.0.1)
       webpack-cli:
         specifier: ^6.0.1
-        version: 6.0.1(webpack-dev-server@5.2.1)(webpack@5.99.5)
+        version: 6.0.1(webpack-dev-server@5.2.1)(webpack@5.99.6)
       webpack-dev-server:
         specifier: ^5.2.1
-        version: 5.2.1(webpack-cli@6.0.1)(webpack@5.99.5)
+        version: 5.2.1(webpack-cli@6.0.1)(webpack@5.99.6)
       wrangler:
         specifier: ^4.11.1
         version: 4.11.1
@@ -770,8 +770,8 @@ packages:
     resolution: {integrity: sha512-+ys997U96po4Kx/ABpBCqhA9EuxJaQWDQg7295H4hBphv3IZg0boBKuwYpt4YXp6MZ5AmZQnU/tyMTlRpaSejg==}
     engines: {node: '>= 0.4'}
 
-  caniuse-lite@1.0.30001713:
-    resolution: {integrity: sha512-wCIWIg+A4Xr7NfhTuHdX+/FKh3+Op3LBbSp2N5Pfx6T/LhdQy3GTyoTg48BReaW/MyMNZAkTadsBtai3ldWK0Q==}
+  caniuse-lite@1.0.30001714:
+    resolution: {integrity: sha512-mtgapdwDLSSBnCI3JokHM7oEQBLxiJKVRtg10AxM1AyeiKcM96f0Mkbqeq+1AbiCtvMcHRulAAEMu693JrSWqg==}
 
   chalk@2.4.2:
     resolution: {integrity: sha512-Mti+f9lpJNcwF4tWV8/OrTTtF1gZi+f8FqlyAdouralcFWFQWF2+NgCHShjkCb+IFBLq9buZwE1xckQU4peSuQ==}
@@ -997,8 +997,8 @@ packages:
   ee-first@1.1.1:
     resolution: {integrity: sha512-WMwm9LhRUo+WUaRN+vRuETqG89IgZphVSNkdFgeb6sS/E4OrDIN7t48CAewSHXc6C8lefD8KKfr5vY61brQlow==}
 
-  electron-to-chromium@1.5.136:
-    resolution: {integrity: sha512-kL4+wUTD7RSA5FHx5YwWtjDnEEkIIikFgWHR4P6fqjw1PPLlqYkxeOb++wAauAssat0YClCy8Y3C5SxgSkjibQ==}
+  electron-to-chromium@1.5.138:
+    resolution: {integrity: sha512-FWlQc52z1dXqm+9cCJ2uyFgJkESd+16j6dBEjsgDNuHjBpuIzL8/lRc0uvh1k8RNI6waGo6tcy2DvwkTBJOLDg==}
 
   emoji-regex@8.0.0:
     resolution: {integrity: sha512-MSjYzcWNOA0ewAHpz0MxpYFvwg6yjy1NG3xteoqz644VCo/RPgnr1/GGt+ic3iJTzQ8Eu3TdM14SawnVUmGE6A==}
@@ -2096,8 +2096,8 @@ packages:
     resolution: {integrity: sha512-/DyMEOrDgLKKIG0fmvtz+4dUX/3Ghozwgm6iPp8KRhvn+eQf9+Q7GWxVNMk3+uCPWfdXYC4ExGBckIXdFEfH1w==}
     engines: {node: '>=10.13.0'}
 
-  webpack@5.99.5:
-    resolution: {integrity: sha512-q+vHBa6H9qwBLUlHL4Y7L0L1/LlyBKZtS9FHNCQmtayxjI5RKC9yD8gpvLeqGv5lCQp1Re04yi0MF40pf30Pvg==}
+  webpack@5.99.6:
+    resolution: {integrity: sha512-TJOLrJ6oeccsGWPl7ujCYuc0pIq2cNsuD6GZDma8i5o5Npvcco/z+NKvZSFsP0/x6SShVb0+X2JK/JHUjKY9dQ==}
     engines: {node: '>=10.13.0'}
     hasBin: true
     peerDependencies:
@@ -2468,13 +2468,13 @@ snapshots:
 
   '@rsdoctor/client@1.0.1': {}
 
-  '@rsdoctor/core@1.0.1(webpack@5.99.5)':
+  '@rsdoctor/core@1.0.1(webpack@5.99.6)':
     dependencies:
       '@rsbuild/plugin-check-syntax': 1.3.0
-      '@rsdoctor/graph': 1.0.1(webpack@5.99.5)
-      '@rsdoctor/sdk': 1.0.1(webpack@5.99.5)
-      '@rsdoctor/types': 1.0.1(webpack@5.99.5)
-      '@rsdoctor/utils': 1.0.1(webpack@5.99.5)
+      '@rsdoctor/graph': 1.0.1(webpack@5.99.6)
+      '@rsdoctor/sdk': 1.0.1(webpack@5.99.6)
+      '@rsdoctor/types': 1.0.1(webpack@5.99.6)
+      '@rsdoctor/utils': 1.0.1(webpack@5.99.6)
       axios: 1.8.4
       browserslist-load-config: 1.0.0
       enhanced-resolve: 5.12.0
@@ -2494,10 +2494,10 @@ snapshots:
       - utf-8-validate
       - webpack
 
-  '@rsdoctor/graph@1.0.1(webpack@5.99.5)':
+  '@rsdoctor/graph@1.0.1(webpack@5.99.6)':
     dependencies:
-      '@rsdoctor/types': 1.0.1(webpack@5.99.5)
-      '@rsdoctor/utils': 1.0.1(webpack@5.99.5)
+      '@rsdoctor/types': 1.0.1(webpack@5.99.6)
+      '@rsdoctor/utils': 1.0.1(webpack@5.99.6)
       lodash.unionby: 4.8.0
       socket.io: 4.8.1
       source-map: 0.7.4
@@ -2508,12 +2508,12 @@ snapshots:
       - utf-8-validate
       - webpack
 
-  '@rsdoctor/sdk@1.0.1(webpack@5.99.5)':
+  '@rsdoctor/sdk@1.0.1(webpack@5.99.6)':
     dependencies:
       '@rsdoctor/client': 1.0.1
-      '@rsdoctor/graph': 1.0.1(webpack@5.99.5)
-      '@rsdoctor/types': 1.0.1(webpack@5.99.5)
-      '@rsdoctor/utils': 1.0.1(webpack@5.99.5)
+      '@rsdoctor/graph': 1.0.1(webpack@5.99.6)
+      '@rsdoctor/types': 1.0.1(webpack@5.99.6)
+      '@rsdoctor/utils': 1.0.1(webpack@5.99.6)
       '@types/fs-extra': 11.0.4
       body-parser: 1.20.3
       cors: 2.8.5
@@ -2533,18 +2533,18 @@ snapshots:
       - utf-8-validate
       - webpack
 
-  '@rsdoctor/types@1.0.1(webpack@5.99.5)':
+  '@rsdoctor/types@1.0.1(webpack@5.99.6)':
     dependencies:
       '@types/connect': 3.4.38
       '@types/estree': 1.0.5
       '@types/tapable': 2.2.7
       source-map: 0.7.4
-      webpack: 5.99.5(webpack-cli@6.0.1)
+      webpack: 5.99.6(webpack-cli@6.0.1)
 
-  '@rsdoctor/utils@1.0.1(webpack@5.99.5)':
+  '@rsdoctor/utils@1.0.1(webpack@5.99.6)':
     dependencies:
       '@babel/code-frame': 7.26.2
-      '@rsdoctor/types': 1.0.1(webpack@5.99.5)
+      '@rsdoctor/types': 1.0.1(webpack@5.99.6)
       '@types/estree': 1.0.5
       acorn: 8.14.1
       acorn-import-attributes: 1.9.5(acorn@8.14.1)
@@ -2565,16 +2565,16 @@ snapshots:
       - supports-color
       - webpack
 
-  '@rsdoctor/webpack-plugin@1.0.1(webpack@5.99.5)':
+  '@rsdoctor/webpack-plugin@1.0.1(webpack@5.99.6)':
     dependencies:
-      '@rsdoctor/core': 1.0.1(webpack@5.99.5)
-      '@rsdoctor/graph': 1.0.1(webpack@5.99.5)
-      '@rsdoctor/sdk': 1.0.1(webpack@5.99.5)
-      '@rsdoctor/types': 1.0.1(webpack@5.99.5)
-      '@rsdoctor/utils': 1.0.1(webpack@5.99.5)
+      '@rsdoctor/core': 1.0.1(webpack@5.99.6)
+      '@rsdoctor/graph': 1.0.1(webpack@5.99.6)
+      '@rsdoctor/sdk': 1.0.1(webpack@5.99.6)
+      '@rsdoctor/types': 1.0.1(webpack@5.99.6)
+      '@rsdoctor/utils': 1.0.1(webpack@5.99.6)
       fs-extra: 11.3.0
       lodash: 4.17.21
-      webpack: 5.99.5(webpack-cli@6.0.1)
+      webpack: 5.99.6(webpack-cli@6.0.1)
     transitivePeerDependencies:
       - '@rsbuild/core'
       - '@rspack/core'
@@ -2782,22 +2782,22 @@ snapshots:
       '@webassemblyjs/ast': 1.14.1
       '@xtuc/long': 4.2.2
 
-  '@webpack-cli/configtest@3.0.1(webpack-cli@6.0.1)(webpack@5.99.5)':
+  '@webpack-cli/configtest@3.0.1(webpack-cli@6.0.1)(webpack@5.99.6)':
     dependencies:
-      webpack: 5.99.5(webpack-cli@6.0.1)
-      webpack-cli: 6.0.1(webpack-dev-server@5.2.1)(webpack@5.99.5)
+      webpack: 5.99.6(webpack-cli@6.0.1)
+      webpack-cli: 6.0.1(webpack-dev-server@5.2.1)(webpack@5.99.6)
 
-  '@webpack-cli/info@3.0.1(webpack-cli@6.0.1)(webpack@5.99.5)':
+  '@webpack-cli/info@3.0.1(webpack-cli@6.0.1)(webpack@5.99.6)':
     dependencies:
-      webpack: 5.99.5(webpack-cli@6.0.1)
-      webpack-cli: 6.0.1(webpack-dev-server@5.2.1)(webpack@5.99.5)
+      webpack: 5.99.6(webpack-cli@6.0.1)
+      webpack-cli: 6.0.1(webpack-dev-server@5.2.1)(webpack@5.99.6)
 
-  '@webpack-cli/serve@3.0.1(webpack-cli@6.0.1)(webpack-dev-server@5.2.1)(webpack@5.99.5)':
+  '@webpack-cli/serve@3.0.1(webpack-cli@6.0.1)(webpack-dev-server@5.2.1)(webpack@5.99.6)':
     dependencies:
-      webpack: 5.99.5(webpack-cli@6.0.1)
-      webpack-cli: 6.0.1(webpack-dev-server@5.2.1)(webpack@5.99.5)
+      webpack: 5.99.6(webpack-cli@6.0.1)
+      webpack-cli: 6.0.1(webpack-dev-server@5.2.1)(webpack@5.99.6)
     optionalDependencies:
-      webpack-dev-server: 5.2.1(webpack-cli@6.0.1)(webpack@5.99.5)
+      webpack-dev-server: 5.2.1(webpack-cli@6.0.1)(webpack@5.99.6)
 
   '@xtuc/ieee754@1.2.0': {}
 
@@ -2923,8 +2923,8 @@ snapshots:
 
   browserslist@4.24.4:
     dependencies:
-      caniuse-lite: 1.0.30001713
-      electron-to-chromium: 1.5.136
+      caniuse-lite: 1.0.30001714
+      electron-to-chromium: 1.5.138
       node-releases: 2.0.19
       update-browserslist-db: 1.1.3(browserslist@4.24.4)
 
@@ -2946,7 +2946,7 @@ snapshots:
       call-bind-apply-helpers: 1.0.2
       get-intrinsic: 1.3.0
 
-  caniuse-lite@1.0.30001713: {}
+  caniuse-lite@1.0.30001714: {}
 
   chalk@2.4.2:
     dependencies:
@@ -3056,14 +3056,14 @@ snapshots:
 
   cookie@0.7.2: {}
 
-  copy-webpack-plugin@13.0.0(webpack@5.99.5):
+  copy-webpack-plugin@13.0.0(webpack@5.99.6):
     dependencies:
       glob-parent: 6.0.2
       normalize-path: 3.0.0
       schema-utils: 4.3.0
       serialize-javascript: 6.0.2
       tinyglobby: 0.2.12
-      webpack: 5.99.5(webpack-cli@6.0.1)
+      webpack: 5.99.6(webpack-cli@6.0.1)
 
   core-util-is@1.0.3: {}
 
@@ -3160,7 +3160,7 @@ snapshots:
 
   ee-first@1.1.1: {}
 
-  electron-to-chromium@1.5.136: {}
+  electron-to-chromium@1.5.138: {}
 
   emoji-regex@8.0.0: {}
 
@@ -4155,14 +4155,14 @@ snapshots:
 
   tapable@2.2.1: {}
 
-  terser-webpack-plugin@5.3.14(webpack@5.99.5):
+  terser-webpack-plugin@5.3.14(webpack@5.99.6):
     dependencies:
       '@jridgewell/trace-mapping': 0.3.25
       jest-worker: 27.5.1
       schema-utils: 4.3.0
       serialize-javascript: 6.0.2
       terser: 5.39.0
-      webpack: 5.99.5(webpack-cli@6.0.1)
+      webpack: 5.99.6(webpack-cli@6.0.1)
 
   terser@5.39.0:
     dependencies:
@@ -4266,12 +4266,12 @@ snapshots:
       - bufferutil
       - utf-8-validate
 
-  webpack-cli@6.0.1(webpack-dev-server@5.2.1)(webpack@5.99.5):
+  webpack-cli@6.0.1(webpack-dev-server@5.2.1)(webpack@5.99.6):
     dependencies:
       '@discoveryjs/json-ext': 0.6.3
-      '@webpack-cli/configtest': 3.0.1(webpack-cli@6.0.1)(webpack@5.99.5)
-      '@webpack-cli/info': 3.0.1(webpack-cli@6.0.1)(webpack@5.99.5)
-      '@webpack-cli/serve': 3.0.1(webpack-cli@6.0.1)(webpack-dev-server@5.2.1)(webpack@5.99.5)
+      '@webpack-cli/configtest': 3.0.1(webpack-cli@6.0.1)(webpack@5.99.6)
+      '@webpack-cli/info': 3.0.1(webpack-cli@6.0.1)(webpack@5.99.6)
+      '@webpack-cli/serve': 3.0.1(webpack-cli@6.0.1)(webpack-dev-server@5.2.1)(webpack@5.99.6)
       colorette: 2.0.20
       commander: 12.1.0
       cross-spawn: 7.0.6
@@ -4280,12 +4280,12 @@ snapshots:
       import-local: 3.2.0
       interpret: 3.1.1
       rechoir: 0.8.0
-      webpack: 5.99.5(webpack-cli@6.0.1)
+      webpack: 5.99.6(webpack-cli@6.0.1)
       webpack-merge: 6.0.1
     optionalDependencies:
-      webpack-dev-server: 5.2.1(webpack-cli@6.0.1)(webpack@5.99.5)
+      webpack-dev-server: 5.2.1(webpack-cli@6.0.1)(webpack@5.99.6)
 
-  webpack-dev-middleware@7.4.2(webpack@5.99.5):
+  webpack-dev-middleware@7.4.2(webpack@5.99.6):
     dependencies:
       colorette: 2.0.20
       memfs: 4.17.0
@@ -4294,9 +4294,9 @@ snapshots:
       range-parser: 1.2.1
       schema-utils: 4.3.0
     optionalDependencies:
-      webpack: 5.99.5(webpack-cli@6.0.1)
+      webpack: 5.99.6(webpack-cli@6.0.1)
 
-  webpack-dev-server@5.2.1(webpack-cli@6.0.1)(webpack@5.99.5):
+  webpack-dev-server@5.2.1(webpack-cli@6.0.1)(webpack@5.99.6):
     dependencies:
       '@types/bonjour': 3.5.13
       '@types/connect-history-api-fallback': 1.5.4
@@ -4324,11 +4324,11 @@ snapshots:
       serve-index: 1.9.1
       sockjs: 0.3.24
       spdy: 4.0.2
-      webpack-dev-middleware: 7.4.2(webpack@5.99.5)
+      webpack-dev-middleware: 7.4.2(webpack@5.99.6)
       ws: 8.18.1
     optionalDependencies:
-      webpack: 5.99.5(webpack-cli@6.0.1)
-      webpack-cli: 6.0.1(webpack-dev-server@5.2.1)(webpack@5.99.5)
+      webpack: 5.99.6(webpack-cli@6.0.1)
+      webpack-cli: 6.0.1(webpack-dev-server@5.2.1)(webpack@5.99.6)
     transitivePeerDependencies:
       - bufferutil
       - debug
@@ -4343,7 +4343,7 @@ snapshots:
 
   webpack-sources@3.2.3: {}
 
-  webpack@5.99.5(webpack-cli@6.0.1):
+  webpack@5.99.6(webpack-cli@6.0.1):
     dependencies:
       '@types/eslint-scope': 3.7.7
       '@types/estree': 1.0.7
@@ -4365,11 +4365,11 @@ snapshots:
       neo-async: 2.6.2
       schema-utils: 4.3.0
       tapable: 2.2.1
-      terser-webpack-plugin: 5.3.14(webpack@5.99.5)
+      terser-webpack-plugin: 5.3.14(webpack@5.99.6)
       watchpack: 2.4.2
       webpack-sources: 3.2.3
     optionalDependencies:
-      webpack-cli: 6.0.1(webpack-dev-server@5.2.1)(webpack@5.99.5)
+      webpack-cli: 6.0.1(webpack-dev-server@5.2.1)(webpack@5.99.6)
     transitivePeerDependencies:
       - '@swc/core'
       - esbuild
