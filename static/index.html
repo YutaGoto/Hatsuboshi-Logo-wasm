@@ -9,7 +9,6 @@
     body {
       margin: auto;
       height: 100vh;
-
       font-family: "komet", sans-serif;
       font-weight: 700;
       font-style: normal;
@@ -17,10 +16,35 @@
 
     .container {
       text-align: center;
+      width: 100%;
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 15px;
     }
 
     canvas {
       border: 1px solid black;
+      width: 600px;
+      height: 600px;
+      max-width: 100%;
+      aspect-ratio: 1 / 1;
+    }
+
+    .canvas-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      min-height: 600px;
+    }
+
+    @media screen and (max-width: 640px) {
+      canvas {
+        width: 100%;
+        height: 100%;
+        min-width: 300px;
+        min-height: 300px;
+      }
     }
   </style>
 </head>
@@ -28,7 +52,9 @@
 <body>
   <div class="container">
     <h1>Rust + Webpack project!</h1>
-    <canvas id="canvas" width="600" height="600"></canvas>
+    <div class="canvas-container">
+      <canvas id="canvas" width="600" height="600"></canvas>
+    </div>
 
     <p>
       <a href="https://github.com/YutaGoto/Hatsuboshi-Logo-wasm" target="_blank" rel="noopener noreferrer">GitHub</a>
@@ -41,6 +67,45 @@
     const font = new FontFace("KOMET", "https://use.typekit.net/ctz0jzc.css");
     await font.load();
     document.fonts.add(font);
+
+    // ブレイクポイントとスケール係数の定義
+    const breakpoints = [
+      { width: 600, scale: 1.0 },    // デスクトップ
+      { width: 450, scale: 0.75 },   // タブレット
+      { width: 300, scale: 0.5 }     // モバイル
+    ];
+
+    // 現在のスケール係数を取得する関数
+    function getScale(displayWidth) {
+      for (const bp of breakpoints) {
+        if (displayWidth >= bp.width) {
+          return bp.scale;
+        }
+      }
+      return breakpoints[breakpoints.length - 1].scale; // 最小サイズのスケール
+    }
+
+    // 前回のスケール値を保持
+    let lastScale = 1.0;
+
+    // リサイズオブザーバーの設定
+    const canvas = document.getElementById('canvas');
+    const resizeObserver = new ResizeObserver(entries => {
+      for (const entry of entries) {
+        const displayWidth = entry.contentRect.width;
+        const currentScale = getScale(displayWidth);
+
+        // スケール値が変わった時のみ再描画
+        if (currentScale !== lastScale) {
+          lastScale = currentScale;
+          if (window.redrawWithScale) {
+            window.redrawWithScale(currentScale);
+          }
+        }
+      }
+    });
+
+    resizeObserver.observe(canvas);
   </script>
 </body>
 
