@@ -16,7 +16,7 @@ pub fn main_js() -> Result<(), JsValue> {
     // Your code goes here!
     console::log_1(&JsValue::from_str("Hello world!"));
 
-    Draw::draw();
+    Draw::draw(1.0);
 
     Ok(())
 }
