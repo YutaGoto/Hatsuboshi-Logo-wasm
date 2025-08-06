@@ -11,7 +11,7 @@
     "wrangler:deploy": "wrangler pages deploy"
   },
   "devDependencies": {
-    "@rsdoctor/webpack-plugin": "^1.1.2",
+    "@rsdoctor/webpack-plugin": "^1.1.11",
     "@wasm-tool/wasm-pack-plugin": "^1.1.0",
     "@webassemblyjs/wasm-parser": "^1.14.1",
     "copy-webpack-plugin": "^13.0.0",
