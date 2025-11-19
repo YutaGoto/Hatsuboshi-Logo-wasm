@@ -9,8 +9,8 @@ importers:
   .:
     devDependencies:
       '@rsdoctor/webpack-plugin':
-        specifier: ^1.3.7
-        version: 1.3.7(webpack@5.102.1)
+        specifier: ^1.3.11
+        version: 1.3.11(webpack@5.102.1)
       '@wasm-tool/wasm-pack-plugin':
         specifier: ^1.1.0
         version: 1.7.0
@@ -442,20 +442,20 @@ packages:
       '@rsbuild/core':
         optional: true
 
-  '@rsdoctor/client@1.3.7':
-    resolution: {integrity: sha512-QShY2wwf5vetuLdN0jhRvga/Y7iru8shD4orFeCzVxFqZEz16SHjah78FWzR/fNTOUq6St4EOOqwWyNMPQ8jCw==}
+  '@rsdoctor/client@1.3.11':
+    resolution: {integrity: sha512-OLu71555PSvD/U+z51gChFmIGcSo97U0UiI6XqzFboc1BjJLy5wpphs/Ez0wNXCvJIZ41aExq9UycZ4PNrmEhA==}
 
-  '@rsdoctor/core@1.3.7':
-    resolution: {integrity: sha512-0SE3WgDbus6Rz59w44osZg5SSELCCUDkS52eo/vuFx1GhDu5wCi2E6CLRbP7k8fWaL9Y4FdOv/6JCIf1SN4dQw==}
+  '@rsdoctor/core@1.3.11':
+    resolution: {integrity: sha512-sFXowN0oGbW2X372Wu1/JbA7eINjUTzp8qX4eY1DTjupgsGlDpQuorRTaHoAhKYRRb5xJsfnBH6ElFAqgqUUMg==}
 
-  '@rsdoctor/graph@1.3.7':
-    resolution: {integrity: sha512-d6geM8e2exsptSnPO8yFFzxxGPLaDzN4Pxore+dOhH4ByjWPbG/HGLa9JWAVC6ibyaQLRK0PXnwcUHTt5ruDSA==}
+  '@rsdoctor/graph@1.3.11':
+    resolution: {integrity: sha512-GlvF0JTTRImitVQC78q0/rIdFdgHb8jIr0Ff6nGIYq8iro+LsHuR40BrN+Y7ezB+YN7+anFqx2ksjcH9EY0W2w==}
 
-  '@rsdoctor/sdk@1.3.7':
-    resolution: {integrity: sha512-6pVZxB3n5rj/opG4Sn/sVdFpEhjCDh1cxgOGDM+XsoBKEsSTn1h9NOxhQCV8bgkVSNcF6KHVkUh/oonPGX5MCA==}
+  '@rsdoctor/sdk@1.3.11':
+    resolution: {integrity: sha512-4S+KXAzRdFff56bq1KZ/x7oyepBcEfz7sGjs94V3NoKbvZKvc/5MxyVSWGf58Uubjj0fzDWR5FYagwGEEEviug==}
 
-  '@rsdoctor/types@1.3.7':
-    resolution: {integrity: sha512-5mfosyP0yvJCbBYKTM0WyxfmCQInW2W/AIH3t3PtsAHZEmGf4UuRPHOdZF+4JRZD/yJ30ByoBm3Uq78hjxePyw==}
+  '@rsdoctor/types@1.3.11':
+    resolution: {integrity: sha512-qQG92tmrDp/qd08Qu1zXjV0zZQabVH0qYYVR0AAPMfAoPhg2Q5pp9dtuK2197jKpzjBV8dLDAisXTqRbt6+tCg==}
     peerDependencies:
       '@rspack/core': '*'
       webpack: 5.x
@@ -465,11 +465,11 @@ packages:
       webpack:
         optional: true
 
-  '@rsdoctor/utils@1.3.7':
-    resolution: {integrity: sha512-dQqNO2hfrhrBa1FncP3d8pHRmTZdJk349Ucb4oiMkG+Zxl8ykdfnMi9bXny7di/kzruehQvEsazNhT8dWWqz6w==}
+  '@rsdoctor/utils@1.3.11':
+    resolution: {integrity: sha512-PnU59Qphmtz+VDoDkoaJ8d9IkMcHPe7kClPCfVKHap0Uyv+X6pWVBOgZlSiAksSAGFWxP6zeu5SGHXoROFmOog==}
 
-  '@rsdoctor/webpack-plugin@1.3.7':
-    resolution: {integrity: sha512-FXAra/jVXE9U5Wnj01TAHNX0iLkeGv1qcSj0X9IERGr5UYuE9n0F+sL2JMqIe+tHRq1EYhnagN3bploD0PYsqQ==}
+  '@rsdoctor/webpack-plugin@1.3.11':
+    resolution: {integrity: sha512-d3znK93hBhRvEGc8HCA3Jcl+TZh44LdsMQIBphWChH+U3qUMlt8o+qrAqC0pMSN+0QI7ONlF/qQflx0CNgmc1g==}
     peerDependencies:
       webpack: 5.x
 
@@ -531,8 +531,8 @@ packages:
   '@types/node-forge@1.3.13':
     resolution: {integrity: sha512-zePQJSW5QkwSHKRApqWCVKeKoSOt4xvEnLENZPjyvm9Ezdf/EyDeJM7jqLzOwjVICQQzvLZ63T55MKdJB5H6ww==}
 
-  '@types/node@24.10.0':
-    resolution: {integrity: sha512-qzQZRBqkFsYyaSWXuEHc2WR9c0a0CXwiE5FWUvn7ZM+vdy1uZLfCunD38UzhuB7YN/J11ndbDBcTmOdxJo9Q7A==}
+  '@types/node@24.10.1':
+    resolution: {integrity: sha512-GNWcUTRBgIRJD5zj+Tq0fKOJ5XZajIiBroOF0yvj2bSU1WvNdYS/dn9UxwsujGW4JX06dnHyjV2y9rRaybH0iQ==}
 
   '@types/node@24.2.1':
     resolution: {integrity: sha512-DRh5K+ka5eJic8CjH7td8QpYEV6Zo10gfRkjHCO3weqZHWDtAaSTFtl4+VMqOJ4N5jcuhZ9/l+yy8rVgw7BQeQ==}
@@ -735,8 +735,8 @@ packages:
     resolution: {integrity: sha512-7s16KR8io8nIBWQyCYhmFhd+ebIzb9VKTzki+wOJXHTxTnV6+mFGH3+Jwn1zoKaY9/H9T/0BcKCZnzXljPnpSQ==}
     hasBin: true
 
-  baseline-browser-mapping@2.8.24:
-    resolution: {integrity: sha512-uUhTRDPXamakPyghwrUcjaGvvBqGrWvBHReoiULMIpOJVM9IYzQh83Xk2Onx5HlGI2o10NNCzcs9TG/S3TkwrQ==}
+  baseline-browser-mapping@2.8.29:
+    resolution: {integrity: sha512-sXdt2elaVnhpDNRDz+1BDx1JQoJRuNk7oVlAlbGiFkLikHCAQiccexF/9e91zVi6RCgqspl04aP+6Cnl9zRLrA==}
     hasBin: true
 
   batch@0.6.1:
@@ -771,8 +771,8 @@ packages:
     engines: {node: ^6 || ^7 || ^8 || ^9 || ^10 || ^11 || ^12 || >=13.7}
     hasBin: true
 
-  browserslist@4.27.0:
-    resolution: {integrity: sha512-AXVQwdhot1eqLihwasPElhX2tAZiBjWdJ9i/Zcj2S6QYIjkx62OKSfnobkriB81C3l4w0rVy3Nt4jaTBltYEpw==}
+  browserslist@4.28.0:
+    resolution: {integrity: sha512-tbydkR/CxfMwelN0vwdP/pLkDwyAASZ+VfWm4EOwlB6SWhx1sYnWLqo8N5j0rAzPfzfRaxt0mM/4wPU/Su84RQ==}
     engines: {node: ^6 || ^7 || ^8 || ^9 || ^10 || ^11 || ^12 || >=13.7}
     hasBin: true
 
@@ -798,8 +798,8 @@ packages:
   caniuse-lite@1.0.30001748:
     resolution: {integrity: sha512-5P5UgAr0+aBmNiplks08JLw+AW/XG/SurlgZLgB1dDLfAw7EfRGxIwzPHxdSCGY/BTKDqIVyJL87cCN6s0ZR0w==}
 
-  caniuse-lite@1.0.30001753:
-    resolution: {integrity: sha512-Bj5H35MD/ebaOV4iDLqPEtiliTN29qkGtEHCwawWn4cYm+bPJM2NsaP30vtZcnERClMzp52J4+aw2UNbK4o+zw==}
+  caniuse-lite@1.0.30001756:
+    resolution: {integrity: sha512-4HnCNKbMLkLdhJz3TToeVWHSnfJvPaq6vu/eRP0Ahub/07n484XHhBF5AJoSGHdVrS8tKFauUQz8Bp9P7LVx7A==}
 
   chalk@2.4.2:
     resolution: {integrity: sha512-Mti+f9lpJNcwF4tWV8/OrTTtF1gZi+f8FqlyAdouralcFWFQWF2+NgCHShjkCb+IFBLq9buZwE1xckQU4peSuQ==}
@@ -993,8 +993,8 @@ packages:
   electron-to-chromium@1.5.232:
     resolution: {integrity: sha512-ENirSe7wf8WzyPCibqKUG1Cg43cPaxH4wRR7AJsX7MCABCHBIOFqvaYODSLKUuZdraxUTHRE/0A2Aq8BYKEHOg==}
 
-  electron-to-chromium@1.5.245:
-    resolution: {integrity: sha512-rdmGfW47ZhL/oWEJAY4qxRtdly2B98ooTJ0pdEI4jhVLZ6tNf8fPtov2wS1IRKwFJT92le3x4Knxiwzl7cPPpQ==}
+  electron-to-chromium@1.5.257:
+    resolution: {integrity: sha512-VNSOB6JZan5IQNMqaurYpZC4bDPXcvKlUwVD/ztMeVD7SwOpMYGOY7dgt+4lNiIHIpvv/FdULnZKqKEy2KcuHQ==}
 
   emoji-regex@8.0.0:
     resolution: {integrity: sha512-MSjYzcWNOA0ewAHpz0MxpYFvwg6yjy1NG3xteoqz644VCo/RPgnr1/GGt+ic3iJTzQ8Eu3TdM14SawnVUmGE6A==}
@@ -1062,8 +1062,8 @@ packages:
     resolution: {integrity: sha512-FGgH2h8zKNim9ljj7dankFPcICIK9Cp5bm+c2gQSYePhpaG5+esrLODihIorn+Pe6FGJzWhXQotPv73jTaldXA==}
     engines: {node: '>= 0.4'}
 
-  es-toolkit@1.41.0:
-    resolution: {integrity: sha512-bDd3oRmbVgqZCJS6WmeQieOrzpl3URcWBUVDXxOELlUW2FuW+0glPOz1n0KnRie+PdyvUZcXz2sOn00c6pPRIA==}
+  es-toolkit@1.42.0:
+    resolution: {integrity: sha512-SLHIyY7VfDJBM8clz4+T2oquwTQxEzu263AyhVK4jREOAwJ+8eebaa4wM3nlvnAqhDrMm2EsA6hWHaQsMPQ1nA==}
 
   esbuild@0.25.4:
     resolution: {integrity: sha512-8pgjLUcUjcgDg+2Q4NYXnPbo/vncAY4UmyaCm0jZevERqCHZIaWwdJHkf8XQtu4AxSKCdvrUbT0XUr1IdZzI8Q==}
@@ -2419,18 +2419,18 @@ snapshots:
       picocolors: 1.1.1
       source-map: 0.7.6
 
-  '@rsdoctor/client@1.3.7': {}
+  '@rsdoctor/client@1.3.11': {}
 
-  '@rsdoctor/core@1.3.7(webpack@5.102.1)':
+  '@rsdoctor/core@1.3.11(webpack@5.102.1)':
     dependencies:
       '@rsbuild/plugin-check-syntax': 1.5.0
-      '@rsdoctor/graph': 1.3.7(webpack@5.102.1)
-      '@rsdoctor/sdk': 1.3.7(webpack@5.102.1)
-      '@rsdoctor/types': 1.3.7(webpack@5.102.1)
-      '@rsdoctor/utils': 1.3.7(webpack@5.102.1)
+      '@rsdoctor/graph': 1.3.11(webpack@5.102.1)
+      '@rsdoctor/sdk': 1.3.11(webpack@5.102.1)
+      '@rsdoctor/types': 1.3.11(webpack@5.102.1)
+      '@rsdoctor/utils': 1.3.11(webpack@5.102.1)
       browserslist-load-config: 1.0.1
       enhanced-resolve: 5.12.0
-      es-toolkit: 1.41.0
+      es-toolkit: 1.42.0
       filesize: 10.1.6
       fs-extra: 11.3.2
       semver: 7.7.3
@@ -2443,23 +2443,23 @@ snapshots:
       - utf-8-validate
       - webpack
 
-  '@rsdoctor/graph@1.3.7(webpack@5.102.1)':
+  '@rsdoctor/graph@1.3.11(webpack@5.102.1)':
     dependencies:
-      '@rsdoctor/types': 1.3.7(webpack@5.102.1)
-      '@rsdoctor/utils': 1.3.7(webpack@5.102.1)
-      es-toolkit: 1.41.0
+      '@rsdoctor/types': 1.3.11(webpack@5.102.1)
+      '@rsdoctor/utils': 1.3.11(webpack@5.102.1)
+      es-toolkit: 1.42.0
       path-browserify: 1.0.1
       source-map: 0.7.6
     transitivePeerDependencies:
       - '@rspack/core'
       - webpack
 
-  '@rsdoctor/sdk@1.3.7(webpack@5.102.1)':
+  '@rsdoctor/sdk@1.3.11(webpack@5.102.1)':
     dependencies:
-      '@rsdoctor/client': 1.3.7
-      '@rsdoctor/graph': 1.3.7(webpack@5.102.1)
-      '@rsdoctor/types': 1.3.7(webpack@5.102.1)
-      '@rsdoctor/utils': 1.3.7(webpack@5.102.1)
+      '@rsdoctor/client': 1.3.11
+      '@rsdoctor/graph': 1.3.11(webpack@5.102.1)
+      '@rsdoctor/types': 1.3.11(webpack@5.102.1)
+      '@rsdoctor/utils': 1.3.11(webpack@5.102.1)
       safer-buffer: 2.1.2
       socket.io: 4.8.1
       tapable: 2.2.3
@@ -2470,7 +2470,7 @@ snapshots:
       - utf-8-validate
       - webpack
 
-  '@rsdoctor/types@1.3.7(webpack@5.102.1)':
+  '@rsdoctor/types@1.3.11(webpack@5.102.1)':
     dependencies:
       '@types/connect': 3.4.38
       '@types/estree': 1.0.5
@@ -2479,10 +2479,10 @@ snapshots:
     optionalDependencies:
       webpack: 5.102.1(webpack-cli@6.0.1)
 
-  '@rsdoctor/utils@1.3.7(webpack@5.102.1)':
+  '@rsdoctor/utils@1.3.11(webpack@5.102.1)':
     dependencies:
       '@babel/code-frame': 7.26.2
-      '@rsdoctor/types': 1.3.7(webpack@5.102.1)
+      '@rsdoctor/types': 1.3.11(webpack@5.102.1)
       '@types/estree': 1.0.5
       acorn: 8.15.0
       acorn-import-attributes: 1.9.5(acorn@8.15.0)
@@ -2500,13 +2500,13 @@ snapshots:
       - '@rspack/core'
       - webpack
 
-  '@rsdoctor/webpack-plugin@1.3.7(webpack@5.102.1)':
+  '@rsdoctor/webpack-plugin@1.3.11(webpack@5.102.1)':
     dependencies:
-      '@rsdoctor/core': 1.3.7(webpack@5.102.1)
-      '@rsdoctor/graph': 1.3.7(webpack@5.102.1)
-      '@rsdoctor/sdk': 1.3.7(webpack@5.102.1)
-      '@rsdoctor/types': 1.3.7(webpack@5.102.1)
-      '@rsdoctor/utils': 1.3.7(webpack@5.102.1)
+      '@rsdoctor/core': 1.3.11(webpack@5.102.1)
+      '@rsdoctor/graph': 1.3.11(webpack@5.102.1)
+      '@rsdoctor/sdk': 1.3.11(webpack@5.102.1)
+      '@rsdoctor/types': 1.3.11(webpack@5.102.1)
+      '@rsdoctor/utils': 1.3.11(webpack@5.102.1)
       webpack: 5.102.1(webpack-cli@6.0.1)
     transitivePeerDependencies:
       - '@rsbuild/core'
@@ -2537,11 +2537,11 @@ snapshots:
 
   '@types/connect@3.4.38':
     dependencies:
-      '@types/node': 24.10.0
+      '@types/node': 24.10.1
 
   '@types/cors@2.8.19':
     dependencies:
-      '@types/node': 24.10.0
+      '@types/node': 24.10.1
 
   '@types/eslint-scope@3.7.7':
     dependencies:
@@ -2585,7 +2585,7 @@ snapshots:
     dependencies:
       '@types/node': 24.2.1
 
-  '@types/node@24.10.0':
+  '@types/node@24.10.1':
     dependencies:
       undici-types: 7.16.0
 
@@ -2800,7 +2800,7 @@ snapshots:
 
   baseline-browser-mapping@2.8.13: {}
 
-  baseline-browser-mapping@2.8.24: {}
+  baseline-browser-mapping@2.8.29: {}
 
   batch@0.6.1: {}
 
@@ -2838,7 +2838,7 @@ snapshots:
 
   browserslist-to-es-version@1.2.0:
     dependencies:
-      browserslist: 4.27.0
+      browserslist: 4.28.0
 
   browserslist@4.26.3:
     dependencies:
@@ -2848,13 +2848,13 @@ snapshots:
       node-releases: 2.0.23
       update-browserslist-db: 1.1.3(browserslist@4.26.3)
 
-  browserslist@4.27.0:
+  browserslist@4.28.0:
     dependencies:
-      baseline-browser-mapping: 2.8.24
-      caniuse-lite: 1.0.30001753
-      electron-to-chromium: 1.5.245
+      baseline-browser-mapping: 2.8.29
+      caniuse-lite: 1.0.30001756
+      electron-to-chromium: 1.5.257
       node-releases: 2.0.27
-      update-browserslist-db: 1.1.4(browserslist@4.27.0)
+      update-browserslist-db: 1.1.4(browserslist@4.28.0)
 
   buffer-from@1.1.2: {}
 
@@ -2876,7 +2876,7 @@ snapshots:
 
   caniuse-lite@1.0.30001748: {}
 
-  caniuse-lite@1.0.30001753: {}
+  caniuse-lite@1.0.30001756: {}
 
   chalk@2.4.2:
     dependencies:
@@ -3057,7 +3057,7 @@ snapshots:
 
   electron-to-chromium@1.5.232: {}
 
-  electron-to-chromium@1.5.245: {}
+  electron-to-chromium@1.5.257: {}
 
   emoji-regex@8.0.0: {}
 
@@ -3072,7 +3072,7 @@ snapshots:
   engine.io@6.6.4:
     dependencies:
       '@types/cors': 2.8.19
-      '@types/node': 24.10.0
+      '@types/node': 24.10.1
       accepts: 1.3.8
       base64id: 2.0.0
       cookie: 0.7.2
@@ -3115,7 +3115,7 @@ snapshots:
     dependencies:
       es-errors: 1.3.0
 
-  es-toolkit@1.41.0: {}
+  es-toolkit@1.42.0: {}
 
   esbuild@0.25.4:
     optionalDependencies:
@@ -4043,9 +4043,9 @@ snapshots:
       escalade: 3.2.0
       picocolors: 1.1.1
 
-  update-browserslist-db@1.1.4(browserslist@4.27.0):
+  update-browserslist-db@1.1.4(browserslist@4.28.0):
     dependencies:
-      browserslist: 4.27.0
+      browserslist: 4.28.0
       escalade: 3.2.0
       picocolors: 1.1.1
 
