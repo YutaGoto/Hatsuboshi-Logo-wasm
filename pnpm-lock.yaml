@@ -9,8 +9,8 @@ importers:
   .:
     devDependencies:
       '@rsdoctor/webpack-plugin':
-        specifier: ^1.3.11
-        version: 1.3.11(webpack@5.103.0)
+        specifier: ^1.3.15
+        version: 1.3.15(webpack@5.103.0)
       '@wasm-tool/wasm-pack-plugin':
         specifier: ^1.1.0
         version: 1.7.0
@@ -438,20 +438,20 @@ packages:
       '@rsbuild/core':
         optional: true
 
-  '@rsdoctor/client@1.3.11':
-    resolution: {integrity: sha512-OLu71555PSvD/U+z51gChFmIGcSo97U0UiI6XqzFboc1BjJLy5wpphs/Ez0wNXCvJIZ41aExq9UycZ4PNrmEhA==}
+  '@rsdoctor/client@1.3.15':
+    resolution: {integrity: sha512-5Ur/d9z2nM8vQwNll0QTuMRzd3W/QB8vrRB2UbNynKgZ71BiQjJgzx29YqxxIJlM2zTr03eSMbUkxUYf+v4+0Q==}
 
-  '@rsdoctor/core@1.3.11':
-    resolution: {integrity: sha512-sFXowN0oGbW2X372Wu1/JbA7eINjUTzp8qX4eY1DTjupgsGlDpQuorRTaHoAhKYRRb5xJsfnBH6ElFAqgqUUMg==}
+  '@rsdoctor/core@1.3.15':
+    resolution: {integrity: sha512-/nT7m4tahzMQwgtImY8PK1wQEQIyUq8T/arB7xKcFLheD+eL/Y0LzCcjPgV52ec5mz9JSZ6THibW1psGhs+QHQ==}
 
-  '@rsdoctor/graph@1.3.11':
-    resolution: {integrity: sha512-GlvF0JTTRImitVQC78q0/rIdFdgHb8jIr0Ff6nGIYq8iro+LsHuR40BrN+Y7ezB+YN7+anFqx2ksjcH9EY0W2w==}
+  '@rsdoctor/graph@1.3.15':
+    resolution: {integrity: sha512-8Zl0RxA0bHz3a1KkVZAtKjHZNe7IIdFwbpockI3QxPIdthHbQomsKLrMpIvwsL7lmSLamXp39ALTdf5JHaCDGA==}
 
-  '@rsdoctor/sdk@1.3.11':
-    resolution: {integrity: sha512-4S+KXAzRdFff56bq1KZ/x7oyepBcEfz7sGjs94V3NoKbvZKvc/5MxyVSWGf58Uubjj0fzDWR5FYagwGEEEviug==}
+  '@rsdoctor/sdk@1.3.15':
+    resolution: {integrity: sha512-T8eJPAD0SNE3jDgV7WaDDvDHVAs8sSAZ28pygPunS4RTPtnNt1ajf/YKdRvIRT4vDccvH3g/+Kiwj4SwzeiSxw==}
 
-  '@rsdoctor/types@1.3.11':
-    resolution: {integrity: sha512-qQG92tmrDp/qd08Qu1zXjV0zZQabVH0qYYVR0AAPMfAoPhg2Q5pp9dtuK2197jKpzjBV8dLDAisXTqRbt6+tCg==}
+  '@rsdoctor/types@1.3.15':
+    resolution: {integrity: sha512-v4yIncLj3hYRihC+xrEkHLkgtaYj8Uun6GNzcYUlRpT9el+uIesJlWk9bweNmgEjTVcjMO6568LUcT/MHP5APg==}
     peerDependencies:
       '@rspack/core': '*'
       webpack: 5.x
@@ -461,11 +461,11 @@ packages:
       webpack:
         optional: true
 
-  '@rsdoctor/utils@1.3.11':
-    resolution: {integrity: sha512-PnU59Qphmtz+VDoDkoaJ8d9IkMcHPe7kClPCfVKHap0Uyv+X6pWVBOgZlSiAksSAGFWxP6zeu5SGHXoROFmOog==}
+  '@rsdoctor/utils@1.3.15':
+    resolution: {integrity: sha512-kMje0BnBC/EU7okkcjLVTqkJdi2qZxvi5rL1ev6bBhVOBS6bNubb9cD3+qA3wfpxJlrGDmrPjQ2zGpHGqE3xag==}
 
-  '@rsdoctor/webpack-plugin@1.3.11':
-    resolution: {integrity: sha512-d3znK93hBhRvEGc8HCA3Jcl+TZh44LdsMQIBphWChH+U3qUMlt8o+qrAqC0pMSN+0QI7ONlF/qQflx0CNgmc1g==}
+  '@rsdoctor/webpack-plugin@1.3.15':
+    resolution: {integrity: sha512-BXDl/vFDLrrRUVhKpZIUxseOjlnFQlWtO46P2jMIpajSxM4214E0lts5wP42rYk8WJA+RrRVwlkAnqnLZA6VoQ==}
     peerDependencies:
       webpack: 5.x
 
@@ -532,6 +532,9 @@ packages:
 
   '@types/node@24.2.1':
     resolution: {integrity: sha512-DRh5K+ka5eJic8CjH7td8QpYEV6Zo10gfRkjHCO3weqZHWDtAaSTFtl4+VMqOJ4N5jcuhZ9/l+yy8rVgw7BQeQ==}
+
+  '@types/node@25.0.1':
+    resolution: {integrity: sha512-czWPzKIAXucn9PtsttxmumiQ9N0ok9FrBwgRWrwmVLlp86BrMExzvXRLFYRJ+Ex3g6yqj+KuaxfX1JTgV2lpfg==}
 
   '@types/qs@6.14.0':
     resolution: {integrity: sha512-eOunJqu0K1923aExK6y8p6fsihYEn/BYuQ4g0CxAAgFc4b/ZLN4CrsRZ55srTdqoiLzU2B2evC+apEIxprEzkQ==}
@@ -716,6 +719,10 @@ packages:
     resolution: {integrity: sha512-a28v2eWrrRWPpJSzxc+mKwm0ZtVx/G8SepdQZDArnXYU/XS+IF6mp8aB/4E+hH1tyGCoDo3KlUCdlSxGDsRkAw==}
     hasBin: true
 
+  baseline-browser-mapping@2.9.7:
+    resolution: {integrity: sha512-k9xFKplee6KIio3IDbwj+uaCLpqzOwakOgmqzPezM0sFJlFKcg30vk2wOiAJtkTSfx0SSQDSe8q+mWA/fSH5Zg==}
+    hasBin: true
+
   batch@0.6.1:
     resolution: {integrity: sha512-x+VAiMRL6UPkx+kudNvxTl6hB2XNNCG2r+7wixVfIYwu/2HKRXimwQyaumLjMveWvT2Hkd/cAJw+QBMfJ/EKVw==}
 
@@ -748,6 +755,11 @@ packages:
     engines: {node: ^6 || ^7 || ^8 || ^9 || ^10 || ^11 || ^12 || >=13.7}
     hasBin: true
 
+  browserslist@4.28.1:
+    resolution: {integrity: sha512-ZC5Bd0LgJXgwGqUknZY/vkUQ04r8NXnJZ3yYi4vDmSiZmC/pdSN0NbNRPxZpbtO4uAfDUAFffO8IZoM3Gj8IkA==}
+    engines: {node: ^6 || ^7 || ^8 || ^9 || ^10 || ^11 || ^12 || >=13.7}
+    hasBin: true
+
   buffer-from@1.1.2:
     resolution: {integrity: sha512-E+XQCRwSbaaiChtv6k6Dwgc+bx+Bs6vuKJHHl5kox/BaKbhiXzqQOwK4cO22yElGp2OCmjwVhT3HmxgyPGnJfQ==}
 
@@ -769,6 +781,9 @@ packages:
 
   caniuse-lite@1.0.30001757:
     resolution: {integrity: sha512-r0nnL/I28Zi/yjk1el6ilj27tKcdjLsNqAOZr0yVjWPrSQyHgKI2INaEWw21bAQSv2LXRt1XuCS/GomNpWOxsQ==}
+
+  caniuse-lite@1.0.30001760:
+    resolution: {integrity: sha512-7AAMPcueWELt1p3mi13HR/LHH0TJLT11cnwDJEs3xA4+CK/PLKeO9Kl1oru24htkyUKtkGCvAx4ohB0Ttry8Dw==}
 
   chalk@2.4.2:
     resolution: {integrity: sha512-Mti+f9lpJNcwF4tWV8/OrTTtF1gZi+f8FqlyAdouralcFWFQWF2+NgCHShjkCb+IFBLq9buZwE1xckQU4peSuQ==}
@@ -959,6 +974,9 @@ packages:
   electron-to-chromium@1.5.262:
     resolution: {integrity: sha512-NlAsMteRHek05jRUxUR0a5jpjYq9ykk6+kO0yRaMi5moe7u0fVIOeQ3Y30A8dIiWFBNUoQGi1ljb1i5VtS9WQQ==}
 
+  electron-to-chromium@1.5.267:
+    resolution: {integrity: sha512-0Drusm6MVRXSOJpGbaSVgcQsuB4hEkMpHXaVstcPmhu5LIedxs1xNK/nIxmQIU/RPC0+1/o0AVZfBTkTNJOdUw==}
+
   encodeurl@1.0.2:
     resolution: {integrity: sha512-TPJXq8JqFaVYm2CWmPvnP2Iyo4ZSM7/QKcSmuMLDObfpH5fi7RUGmd/rTDf+rut/saiDiQEeVTNgAmJEdAOx0w==}
     engines: {node: '>= 0.8'}
@@ -1019,8 +1037,8 @@ packages:
     resolution: {integrity: sha512-FGgH2h8zKNim9ljj7dankFPcICIK9Cp5bm+c2gQSYePhpaG5+esrLODihIorn+Pe6FGJzWhXQotPv73jTaldXA==}
     engines: {node: '>= 0.4'}
 
-  es-toolkit@1.42.0:
-    resolution: {integrity: sha512-SLHIyY7VfDJBM8clz4+T2oquwTQxEzu263AyhVK4jREOAwJ+8eebaa4wM3nlvnAqhDrMm2EsA6hWHaQsMPQ1nA==}
+  es-toolkit@1.43.0:
+    resolution: {integrity: sha512-SKCT8AsWvYzBBuUqMk4NPwFlSdqLpJwmy6AP322ERn8W2YLIB6JBXnwMI2Qsh2gfphT3q7EKAxKb23cvFHFwKA==}
 
   esbuild@0.25.4:
     resolution: {integrity: sha512-8pgjLUcUjcgDg+2Q4NYXnPbo/vncAY4UmyaCm0jZevERqCHZIaWwdJHkf8XQtu4AxSKCdvrUbT0XUr1IdZzI8Q==}
@@ -1616,8 +1634,8 @@ packages:
     engines: {node: 20 || >=22}
     hasBin: true
 
-  rslog@1.3.0:
-    resolution: {integrity: sha512-93DpwwaiRrLz7fJ5z6Uwb171hHBws1VVsWjU6IruLFX63BicLA44QNu0sfn3guKHnBHZMFSKO8akfx5QhjuegQ==}
+  rslog@1.3.2:
+    resolution: {integrity: sha512-1YyYXBvN0a2b1MSIDLwDTqqgjDzRKxUg/S/+KO6EAgbtZW1B3fdLHAMhEEtvk1patJYMqcRvlp3HQwnxj7AdGQ==}
 
   run-applescript@7.0.0:
     resolution: {integrity: sha512-9by4Ij99JUr/MCFBUkDKLWK3G9HVXmabKz9U5MlIAIuvuzkiOicRYs8XJLxX+xahD+mLiiCYDqF9dKAgtzKP1A==}
@@ -1872,6 +1890,12 @@ packages:
 
   update-browserslist-db@1.1.4:
     resolution: {integrity: sha512-q0SPT4xyU84saUX+tomz1WLkxUbuaJnR1xWt17M7fJtEJigJeWUNGUqrauFXsHnqev9y9JTRGwk13tFBuKby4A==}
+    hasBin: true
+    peerDependencies:
+      browserslist: '>= 4.21.0'
+
+  update-browserslist-db@1.2.2:
+    resolution: {integrity: sha512-E85pfNzMQ9jpKkA7+TJAi4TJN+tBCuWh5rUcS/sv6cFi+1q9LYDwDI5dpUL0u/73EElyQ8d3TEaeW4sPedBqYA==}
     hasBin: true
     peerDependencies:
       browserslist: '>= 4.21.0'
@@ -2318,18 +2342,18 @@ snapshots:
       picocolors: 1.1.1
       source-map: 0.7.6
 
-  '@rsdoctor/client@1.3.11': {}
+  '@rsdoctor/client@1.3.15': {}
 
-  '@rsdoctor/core@1.3.11(webpack@5.103.0)':
+  '@rsdoctor/core@1.3.15(webpack@5.103.0)':
     dependencies:
       '@rsbuild/plugin-check-syntax': 1.5.0
-      '@rsdoctor/graph': 1.3.11(webpack@5.103.0)
-      '@rsdoctor/sdk': 1.3.11(webpack@5.103.0)
-      '@rsdoctor/types': 1.3.11(webpack@5.103.0)
-      '@rsdoctor/utils': 1.3.11(webpack@5.103.0)
+      '@rsdoctor/graph': 1.3.15(webpack@5.103.0)
+      '@rsdoctor/sdk': 1.3.15(webpack@5.103.0)
+      '@rsdoctor/types': 1.3.15(webpack@5.103.0)
+      '@rsdoctor/utils': 1.3.15(webpack@5.103.0)
       browserslist-load-config: 1.0.1
       enhanced-resolve: 5.12.0
-      es-toolkit: 1.42.0
+      es-toolkit: 1.43.0
       filesize: 10.1.6
       fs-extra: 11.3.2
       semver: 7.7.3
@@ -2342,23 +2366,23 @@ snapshots:
       - utf-8-validate
       - webpack
 
-  '@rsdoctor/graph@1.3.11(webpack@5.103.0)':
+  '@rsdoctor/graph@1.3.15(webpack@5.103.0)':
     dependencies:
-      '@rsdoctor/types': 1.3.11(webpack@5.103.0)
-      '@rsdoctor/utils': 1.3.11(webpack@5.103.0)
-      es-toolkit: 1.42.0
+      '@rsdoctor/types': 1.3.15(webpack@5.103.0)
+      '@rsdoctor/utils': 1.3.15(webpack@5.103.0)
+      es-toolkit: 1.43.0
       path-browserify: 1.0.1
       source-map: 0.7.6
     transitivePeerDependencies:
       - '@rspack/core'
       - webpack
 
-  '@rsdoctor/sdk@1.3.11(webpack@5.103.0)':
+  '@rsdoctor/sdk@1.3.15(webpack@5.103.0)':
     dependencies:
-      '@rsdoctor/client': 1.3.11
-      '@rsdoctor/graph': 1.3.11(webpack@5.103.0)
-      '@rsdoctor/types': 1.3.11(webpack@5.103.0)
-      '@rsdoctor/utils': 1.3.11(webpack@5.103.0)
+      '@rsdoctor/client': 1.3.15
+      '@rsdoctor/graph': 1.3.15(webpack@5.103.0)
+      '@rsdoctor/types': 1.3.15(webpack@5.103.0)
+      '@rsdoctor/utils': 1.3.15(webpack@5.103.0)
       safer-buffer: 2.1.2
       socket.io: 4.8.1
       tapable: 2.2.3
@@ -2369,7 +2393,7 @@ snapshots:
       - utf-8-validate
       - webpack
 
-  '@rsdoctor/types@1.3.11(webpack@5.103.0)':
+  '@rsdoctor/types@1.3.15(webpack@5.103.0)':
     dependencies:
       '@types/connect': 3.4.38
       '@types/estree': 1.0.5
@@ -2378,10 +2402,10 @@ snapshots:
     optionalDependencies:
       webpack: 5.103.0(webpack-cli@6.0.1)
 
-  '@rsdoctor/utils@1.3.11(webpack@5.103.0)':
+  '@rsdoctor/utils@1.3.15(webpack@5.103.0)':
     dependencies:
       '@babel/code-frame': 7.26.2
-      '@rsdoctor/types': 1.3.11(webpack@5.103.0)
+      '@rsdoctor/types': 1.3.15(webpack@5.103.0)
       '@types/estree': 1.0.5
       acorn: 8.15.0
       acorn-import-attributes: 1.9.5(acorn@8.15.0)
@@ -2393,19 +2417,19 @@ snapshots:
       json-stream-stringify: 3.0.1
       lines-and-columns: 2.0.4
       picocolors: 1.1.1
-      rslog: 1.3.0
+      rslog: 1.3.2
       strip-ansi: 6.0.1
     transitivePeerDependencies:
       - '@rspack/core'
       - webpack
 
-  '@rsdoctor/webpack-plugin@1.3.11(webpack@5.103.0)':
+  '@rsdoctor/webpack-plugin@1.3.15(webpack@5.103.0)':
     dependencies:
-      '@rsdoctor/core': 1.3.11(webpack@5.103.0)
-      '@rsdoctor/graph': 1.3.11(webpack@5.103.0)
-      '@rsdoctor/sdk': 1.3.11(webpack@5.103.0)
-      '@rsdoctor/types': 1.3.11(webpack@5.103.0)
-      '@rsdoctor/utils': 1.3.11(webpack@5.103.0)
+      '@rsdoctor/core': 1.3.15(webpack@5.103.0)
+      '@rsdoctor/graph': 1.3.15(webpack@5.103.0)
+      '@rsdoctor/sdk': 1.3.15(webpack@5.103.0)
+      '@rsdoctor/types': 1.3.15(webpack@5.103.0)
+      '@rsdoctor/utils': 1.3.15(webpack@5.103.0)
       webpack: 5.103.0(webpack-cli@6.0.1)
     transitivePeerDependencies:
       - '@rsbuild/core'
@@ -2436,11 +2460,11 @@ snapshots:
 
   '@types/connect@3.4.38':
     dependencies:
-      '@types/node': 24.10.1
+      '@types/node': 25.0.1
 
   '@types/cors@2.8.19':
     dependencies:
-      '@types/node': 24.10.1
+      '@types/node': 25.0.1
 
   '@types/eslint-scope@3.7.7':
     dependencies:
@@ -2491,6 +2515,10 @@ snapshots:
   '@types/node@24.2.1':
     dependencies:
       undici-types: 7.10.0
+
+  '@types/node@25.0.1':
+    dependencies:
+      undici-types: 7.16.0
 
   '@types/qs@6.14.0': {}
 
@@ -2687,6 +2715,8 @@ snapshots:
 
   baseline-browser-mapping@2.8.31: {}
 
+  baseline-browser-mapping@2.9.7: {}
+
   batch@0.6.1: {}
 
   binary-extensions@2.3.0: {}
@@ -2723,7 +2753,7 @@ snapshots:
 
   browserslist-to-es-version@1.2.0:
     dependencies:
-      browserslist: 4.28.0
+      browserslist: 4.28.1
 
   browserslist@4.28.0:
     dependencies:
@@ -2732,6 +2762,14 @@ snapshots:
       electron-to-chromium: 1.5.262
       node-releases: 2.0.27
       update-browserslist-db: 1.1.4(browserslist@4.28.0)
+
+  browserslist@4.28.1:
+    dependencies:
+      baseline-browser-mapping: 2.9.7
+      caniuse-lite: 1.0.30001760
+      electron-to-chromium: 1.5.267
+      node-releases: 2.0.27
+      update-browserslist-db: 1.2.2(browserslist@4.28.1)
 
   buffer-from@1.1.2: {}
 
@@ -2752,6 +2790,8 @@ snapshots:
       get-intrinsic: 1.3.0
 
   caniuse-lite@1.0.30001757: {}
+
+  caniuse-lite@1.0.30001760: {}
 
   chalk@2.4.2:
     dependencies:
@@ -2930,6 +2970,8 @@ snapshots:
 
   electron-to-chromium@1.5.262: {}
 
+  electron-to-chromium@1.5.267: {}
+
   encodeurl@1.0.2: {}
 
   encodeurl@2.0.0: {}
@@ -2939,7 +2981,7 @@ snapshots:
   engine.io@6.6.4:
     dependencies:
       '@types/cors': 2.8.19
-      '@types/node': 24.10.1
+      '@types/node': 25.0.1
       accepts: 1.3.8
       base64id: 2.0.0
       cookie: 0.7.2
@@ -2982,7 +3024,7 @@ snapshots:
     dependencies:
       es-errors: 1.3.0
 
-  es-toolkit@1.42.0: {}
+  es-toolkit@1.43.0: {}
 
   esbuild@0.25.4:
     optionalDependencies:
@@ -3558,7 +3600,7 @@ snapshots:
       glob: 13.0.0
       package-json-from-dist: 1.0.1
 
-  rslog@1.3.0: {}
+  rslog@1.3.2: {}
 
   run-applescript@7.0.0: {}
 
@@ -3871,6 +3913,12 @@ snapshots:
   update-browserslist-db@1.1.4(browserslist@4.28.0):
     dependencies:
       browserslist: 4.28.0
+      escalade: 3.2.0
+      picocolors: 1.1.1
+
+  update-browserslist-db@1.2.2(browserslist@4.28.1):
+    dependencies:
+      browserslist: 4.28.1
       escalade: 3.2.0
       picocolors: 1.1.1
 
