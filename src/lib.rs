@@ -17,6 +17,7 @@ pub fn main_js() -> Result<(), JsValue> {
     console::log_1(&JsValue::from_str("Hello world!"));
 
     Draw::draw(1.0);
+    Draw::draw_hif(1.0);
 
     Ok(())
 }
