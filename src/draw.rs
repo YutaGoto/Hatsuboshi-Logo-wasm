@@ -17,10 +17,20 @@ impl Draw {
         DrawLogo::draw_5lines_between_arc(&context, scale);
         DrawLogo::draw_text(&context, scale);
     }
+
+    pub fn draw_hif(scale: f64) {
+        let context = browser::context_hif().unwrap();
+
+        DrawLogo::draw_square(&context, scale);
+        DrawLogo::draw_big_circle(&context, scale);
+        DrawLogo::draw_big_curved_sparkle(&context, scale);
+        DrawLogo::draw_hif_lines(&context, scale);
+    }
 }
 
 impl DrawLogo {
     const LINE_WIDTH: f64 = 12.0;
+    const LINE_WIDTH_HIF: f64 = 42.0;
 
     // スケーリングのヘルパー関数
     fn scaled(value: f64, scale: f64) -> f64 {
@@ -30,6 +40,10 @@ impl DrawLogo {
     // 線の太さもスケーリング
     fn scaled_line_width(scale: f64) -> f64 {
         Self::LINE_WIDTH * scale
+    }
+
+    fn scaled_line_width_hif(scale: f64) -> f64 {
+        Self::LINE_WIDTH_HIF * scale
     }
 
     pub fn draw_diamond(context: &web_sys::CanvasRenderingContext2d, scale: f64) {
@@ -251,5 +265,111 @@ impl DrawLogo {
             )
             .unwrap();
         context.restore();
+    }
+
+    pub fn draw_square(context: &web_sys::CanvasRenderingContext2d, scale: f64) {
+        context.set_line_width(Self::scaled_line_width_hif(scale));
+        context.begin_path();
+        context.move_to(Self::scaled(50.0, scale), Self::scaled(50.0, scale));
+        context.line_to(Self::scaled(550.0, scale), Self::scaled(50.0, scale));
+        context.line_to(Self::scaled(550.0, scale), Self::scaled(550.0, scale));
+        context.line_to(Self::scaled(50.0, scale), Self::scaled(550.0, scale));
+        context.line_to(Self::scaled(50.0, scale), Self::scaled(50.0, scale));
+        context.close_path();
+        context.stroke();
+    }
+
+    pub fn draw_big_circle(context: &web_sys::CanvasRenderingContext2d, scale: f64) {
+        context.set_line_width(Self::scaled_line_width_hif(scale));
+        context.begin_path();
+        context
+            .arc(
+                Self::scaled(300.0, scale),
+                Self::scaled(300.0, scale),
+                Self::scaled(250.0, scale),
+                0.0,
+                std::f64::consts::PI * 2.0,
+            )
+            .unwrap();
+        context.stroke();
+    }
+
+    pub fn draw_big_curved_sparkle(context: &web_sys::CanvasRenderingContext2d, scale: f64) {
+        context.set_line_width(Self::scaled_line_width_hif(scale));
+        context.set_line_join("bevel");
+
+        context.begin_path();
+        context
+            .arc(
+                Self::scaled(50.0, scale),
+                Self::scaled(50.0, scale),
+                Self::scaled(250.0, scale),
+                std::f64::consts::PI * 0.0,
+                std::f64::consts::PI * 0.5,
+            )
+            .unwrap();
+
+        context
+            .arc(
+                Self::scaled(50.0, scale),
+                Self::scaled(550.0, scale),
+                Self::scaled(250.0, scale),
+                std::f64::consts::PI * 1.5,
+                std::f64::consts::PI * 2.0,
+            )
+            .unwrap();
+
+        context
+            .arc(
+                Self::scaled(550.0, scale),
+                Self::scaled(550.0, scale),
+                Self::scaled(250.0, scale),
+                std::f64::consts::PI * 1.0,
+                std::f64::consts::PI * 1.5,
+            )
+            .unwrap();
+
+        context
+            .arc(
+                Self::scaled(550.0, scale),
+                Self::scaled(50.0, scale),
+                Self::scaled(250.0, scale),
+                std::f64::consts::PI * 0.5,
+                std::f64::consts::PI * 1.0,
+            )
+            .unwrap();
+
+        context.stroke();
+    }
+
+    pub fn draw_hif_lines(context: &web_sys::CanvasRenderingContext2d, scale: f64) {
+        context.set_line_width(Self::scaled_line_width_hif(scale));
+
+        context.begin_path();
+        context.move_to(Self::scaled(125.0, scale), Self::scaled(125.0, scale));
+        context.line_to(
+            Self::scaled(125.0 + 100.0, scale),
+            Self::scaled(125.0 + 100.0, scale),
+        );
+
+        context.move_to(Self::scaled(125.0, scale), Self::scaled(475.0, scale));
+        context.line_to(
+            Self::scaled(125.0 + 100.0, scale),
+            Self::scaled(475.0 - 100.0, scale),
+        );
+
+        context.move_to(Self::scaled(475.0, scale), Self::scaled(125.0, scale));
+        context.line_to(
+            Self::scaled(475.0 - 100.0, scale),
+            Self::scaled(125.0 + 100.0, scale),
+        );
+
+        context.move_to(Self::scaled(475.0, scale), Self::scaled(475.0, scale));
+        context.line_to(
+            Self::scaled(475.0 - 100.0, scale),
+            Self::scaled(475.0 - 100.0, scale),
+        );
+
+        context.stroke();
     }
 }
