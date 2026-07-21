@@ -19,6 +19,6 @@
     "webpack": "^5.108.4",
     "webpack-cli": "^7.0.3",
     "webpack-dev-server": "^5.2.5",
-    "wrangler": "^4.95.0"
+    "wrangler": "^4.113.0"
   }
 }
